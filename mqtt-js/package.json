@@ -1,0 +1,18 @@
+{
+  "name": "tugas-mqtt",
+  "version": "1.0.0",
+  "description": "Tugas WSN mqtt",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node --presets es2015 server.js",
+    "dev": "babel-node --presets es2015 client.js"
+  },
+  "author": "Suryo Adiguna",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.0.0",
+    "babel-preset-es2015": "^6.0.0",
+    "mqtt": "^4.2.6"
+  }
+}
